@@ -1,5 +1,5 @@
 ---
-title: 备份&恢复
+title: hexo-备份&恢复（方法一）
 date: 2019-09-09 11:55:29
 tags: hexo
 categories: 教程
@@ -123,6 +123,16 @@ set HEXO_ALGOLIA_INDEXING_KEY=我的Algolia的Search-Only API Key
 hexo clean
 hexo algolia
 ```
+
+5、个人而言习惯于先备份文件再生成博客。即先执行
+
+```bash
+git add .
+git commit -m "Backup"
+git push origin hexo
+```
+
+将博客备份完成，然后执行`hexo g -d`发布博客。
 
 
 

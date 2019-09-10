@@ -1,9 +1,11 @@
 ---
-title: hexo-backup
+title: Hexo-备份&恢复（方法二）
 date: 2019-09-09 15:02:08
-tags:hexo
+tags: hexo
 categories: 教程
 ---
+
+
 
 # 安装Hexo
 
@@ -25,7 +27,7 @@ categories: 教程
 
 ```bash
 git add .
-git commit -m "Backup"
+git commit -m "up"
 git push origin hexo
 ```
 
@@ -41,7 +43,7 @@ git push origin hexo
 
 ```bash
 git add .
-git commit -m "Backup"
+git commit -m "up"
 git push origin hexo
 ```
 
