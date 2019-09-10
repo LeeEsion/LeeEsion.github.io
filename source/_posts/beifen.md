@@ -1,5 +1,5 @@
 ---
-title: hexo-备份&恢复（方法一）
+title: Hexo-备份&恢复（方法一）
 date: 2019-09-09 11:55:29
 tags: hexo
 categories: 教程
